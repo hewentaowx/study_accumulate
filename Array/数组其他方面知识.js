@@ -57,9 +57,40 @@ console.log(arr4.slice(0, 3)); // [1,2,3]
 console.log(arr4.slice(1, -1)); // [2,3,4]
 console.log(arr4.slice(-4, -3)); // [2]
 console.log(arr4.slice(3, 0)); // [] 截取不到就返回空数组
+console.log(arr4); // [1,2,3,4,5]
 
 /**
  * 添加删除替换数组元素
- * @param {Object} start
- * @return {Array} 返回一个新数组不影响原数组
+ * @param {Object} value 包括 start(开始索引) end(个数) in(插入的数据)
+ * @return {Array} 返回一个新数组 原数组改变
  */
+const arr5 = [ 1, 2, 3, 4, 5, 6 ];
+// console.log(arr5.splice(2)); // [3,4,5,6]
+// console.log(arr5.splice(1)); // [2]
+console.log(arr5.splice(1, 2, 1, 1));
+console.log(arr5);
+
+/**
+ * 数组排序
+ * @return {Array} a-b 从小到大  b-a 从大到小
+ */
+const arr6 = [ 1, 2, 3, 4, 5 ];
+arr6.sort((a, b) => {
+	return a - b; // 从小到大
+	// return b - a; 从大到小
+});
+
+/**
+ * 颠倒数组元素  逆序
+ * @return {Array} 数组逆序
+ */
+const arr7 = [ 1, 2, 3, 4, 5 ];
+arr7.reverse(); // [5,4,3,2,1]
+
+/**
+ * 数组转为字符串
+ * @param {Array} 数组
+ * @return {String}
+ */
+const arr8 = [ 1, 2, [ 3, 'c' ]];
+arr8.toString(); // "1, 2, 3, c"
