@@ -1,5 +1,5 @@
 /**
- * form方法 将类数组对象和可遍历对象转为真数组‘
+ * form方法 将类数组对象和可遍历对象转为真数组
  * Array.form(array, fn)
  * @param {Array} arr为类数组或集合
  * @param {Function} fn函数作用类似map方法
@@ -26,4 +26,3 @@ console.log(Array.of(3)); // [3]
  */
 console.log([ 1, 2, 3 ].fill(5));
 console.log([ 1, 2, 3 ].fill(5, 1, 2));
-

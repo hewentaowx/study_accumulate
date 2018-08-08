@@ -21,7 +21,8 @@
 		"no-mixed-spaces-and-tabs": [
 			2, 
 			false
-		],
+    ],
+    "no-new-wrappers": 0,
 		"no-var": 2,
 		"no-console": 0,
 		"no-unused-vars": 1,
