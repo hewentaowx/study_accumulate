@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "eslint-config-egg": "^7.0.0"
+    "child_process": "^1.0.2",
+    "eslint-config-egg": "^7.0.0",
+    "events": "^3.0.0",
+    "redis": "^2.8.0"
   }
 }
