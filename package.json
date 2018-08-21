@@ -1,11 +1,14 @@
 {
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "child_process": "^1.0.2",
     "cluster": "^0.7.7",
     "eslint-config-egg": "^7.0.0",
     "events": "^3.0.0",
     "http": "^0.0.0",
     "os": "^0.1.1",
-    "redis": "^2.8.0"
+    "redis": "^2.8.0",
+    "should": "^13.2.3",
+    "superagent": "^3.8.3"
   }
 }
